@@ -1,0 +1,97 @@
+/*
+Challenge:
+Select the img tag and set the width 
+of the Google logo to be 300px.
+*/
+
+/* Challenge: 
+    Add some space (margin) above our image!
+    Do you remember how we added spacing in the 
+    cookie widget example?
+    */
+
+    /*
+Challenge: 
+Add some space between the logo 
+and the search field.
+
+What are the two different ways 
+we can do this with margins?
+
+*/
+
+
+.main{
+    margin-top: 100px;
+}
+
+.logo-img{
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Challenge: 
+    Design the search field according to the spec
+    */
+.search-input{
+    display: block;
+    line-height: 24px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;  
+}
+
+    /*
+    Challenge:
+    Center the button and add some space above it
+    */
+
+   /*
+    Challenge:
+    Style the button according to the provided design.
+    Hint: Use padding, font-size, border-radius, border, and background
+    
+    PS: 
+    The real background is #f8f9fa but it is failing our contrast check. 
+    So here's the background color we will use: #dfe1e5
+    */
+
+    /*
+    Challenge:
+    Wrap the buttons in a flexbox div and center them.
+    Give the div a "btn-wrapper" class.
+    */
+
+.btn {
+   
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dfe1e5;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px ;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
